@@ -103,8 +103,9 @@
       '  <span class="cmd">clear</span>       wipe the screen',
     whoami: () =>
       'corey mckay — cybersecurity pro, navy veteran.\n' +
-      '9+ years: soc ops → detection engineering → presales.\n' +
-      'currently: ms computer science (cybersecurity track).',
+      '9+ years: soc ops → detection engineering → domain consulting.\n' +
+      'domain consultant for cortex @ palo alto networks.\n' +
+      'bs cybersecurity technologies (umgc); ms cs in progress.',
     projects: () =>
       'cartridges inserted:\n' +
       '  <span class="cmd">hound</span>       verified sports models\n' +
