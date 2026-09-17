@@ -119,7 +119,8 @@
     contact: () =>
       'best reached via github:\n  <span class="cmd">https://github.com/CoreyMcKay</span>',
     konami: () =>
-      '<span class="warn">hint: ↑ ↑ ↓ ↓ ← → ← → B A</span>\n(or just press the arrow keys and type B A anywhere on this page)',
+      '<span class="warn">press these keys in order, anywhere on the page (not as a typed command):</span>\n' +
+      '<span class="cmd">↑ ↑ ↓ ↓ ← → ← → B A</span>',
     sudo: () => '<span class="warn">nice try.</span>',
   };
 
