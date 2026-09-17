@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corey McKay — Player One</title>
+  <meta name="description" content="Corey McKay — cybersecurity pro, detection engineer, Navy veteran. Player One." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════ NAV / GAME MENU ══════════ -->
+  <nav class="game-menu" id="gameMenu">
+    <a class="logo" href="#top"><span class="logo-badge">CM</span> PLAYER ONE</a>
+    <div class="menu-links">
+      <a href="#profile">Profile</a>
+      <a href="#cartridges">Cartridges</a>
+      <a href="#patch-notes">Patch Notes</a>
+      <a href="#bonus">Bonus Stage</a>
+      <a href="#contact" class="menu-cta">Continue?</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Player 2 mode">
+      <span class="toggle-knob"></span>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+  </nav>
+
+  <!-- ══════════ TITLE SCREEN ══════════ -->
+  <header class="hero" id="top">
+    <div class="hero-pixels" aria-hidden="true">
+      <span class="px p1"></span><span class="px p2"></span><span class="px p3"></span>
+      <span class="px p4"></span><span class="px p5"></span><span class="px p6"></span>
+      <span class="px p7"></span><span class="px p8"></span>
+    </div>
+    <div class="hero-inner">
+      <p class="hero-kicker reveal">★ NEW GAME ★</p>
+      <h1 class="hero-title reveal">COREY<br />MCKAY</h1>
+      <p class="hero-sub reveal">PLAYER ONE &nbsp;·&nbsp; CYBERSECURITY</p>
+      <p class="hero-blurb reveal">9+ years defending networks — from Navy SOC watchfloors to detection engineering and beyond. Now pressing start on what's next.</p>
+      <a href="#profile" class="press-start reveal">▶ PRESS START</a>
+      <div class="hero-stats reveal">
+        <div><strong>9+</strong><span>years in the game</span></div>
+        <div><strong>2</strong><span>Navy SOC teams led</span></div>
+        <div><strong>$4M+</strong><span>closed-won in presales</span></div>
+        <div><strong>∞</strong><span>curiosity</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">▼</div>
+  </header>
+
+  <main>
+    <!-- ══════════ LEVEL 1 · PLAYER PROFILE ══════════ -->
+    <section class="level" id="profile">
+      <div class="level-head reveal">
+        <span class="level-tag">LEVEL 1</span>
+        <h2>Player Profile</h2>
+        <p>Character select — this is the build I've been running.</p>
+      </div>
+      <div class="profile-grid">
+        <div class="char-card reveal">
+          <div class="char-frame">
+            <img src="assets/img/avatar.png" alt="Pixel-art avatar of Corey McKay, a cyber-knight" />
+          </div>
+          <h3>COREY MCKAY</h3>
+          <p class="char-class">CLASS: DETECTION ENGINEER</p>
+          <div class="hp-bar"><span class="hp-fill"></span></div>
+          <p class="hp-label">HP 9+ / EXP VETERAN</p>
+          <ul class="char-traits">
+            <li>Navy veteran — SOC leadership</li>
+            <li>Palo Alto Networks — Cortex presales</li>
+            <li>MS Computer Science, cybersecurity track — in progress</li>
+          </ul>
+        </div>
+        <div class="profile-body">
+          <div class="bio-card reveal">
+            <h3>▸ Bio</h3>
+            <p>I've spent 9+ years across SOC operations, detection engineering, consulting, and presales. In the Navy I led SOC teams of four and eight analysts. At Palo Alto Networks I ran Cortex demos and POVs across XSIAM, XDR, XSOAR, and Xpanse — 20+ tailored demos, three POVs, $4M+ in closed-won revenue.</p>
+            <p>These days I'm back in school for an MS in Computer Science (cybersecurity track, non-thesis), with an MBA on the roadmap after. The goal: lead from the front — management, or hands-on engineering inside an internal security org.</p>
+          </div>
+          <div class="stats-card reveal">
+            <h3>▸ Stats</h3>
+            <div class="stat"><span>SOC Operations</span><div class="bar"><i style="--v:95%"></i></div><b>95</b></div>
+            <div class="stat"><span>Detection Engineering</span><div class="bar"><i style="--v:92%"></i></div><b>92</b></div>
+            <div class="stat"><span>Threat Hunting</span><div class="bar"><i style="--v:88%"></i></div><b>88</b></div>
+            <div class="stat"><span>Automation &amp; Scripting</span><div class="bar"><i style="--v:85%"></i></div><b>85</b></div>
+            <div class="stat"><span>Presales / Demos</span><div class="bar"><i style="--v:90%"></i></div><b>90</b></div>
+          </div>
+          <div class="now-card reveal">
+            <h3>▸ Now Playing</h3>
+            <ul>
+              <li>MS Computer Science coursework — cybersecurity track</li>
+              <li>Building <a href="https://hound-three.vercel.app">Hound</a> — verified sports models</li>
+              <li>Open to: player-coach security roles, startups with cool missions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ LEVEL 2 · CARTRIDGES ══════════ -->
+    <section class="level level-alt" id="cartridges">
+      <div class="level-head reveal">
+        <span class="level-tag">LEVEL 2</span>
+        <h2>Select Your Cartridge</h2>
+        <p>Side quests and main missions. Blow on them first — it's tradition.</p>
+      </div>
+      <div class="cart-grid">
+
+        <article class="cart reveal" data-tilt>
+          <div class="cart-art cart-hound"><span>HD</span></div>
+          <div class="cart-body">
+            <div class="cart-meta"><span class="genre">SIMULATION</span><span class="status live">● IN DEVELOPMENT</span></div>
+            <h3>Hound</h3>
+            <p>A verification layer for sports models — no-code model builder, paper trading and backtesting, pregame-locked picks, and a verified leaderboard. Proof over promises. It doesn't place wagers; it proves who can actually pick.</p>
+            <a class="cart-btn" href="https://hound-three.vercel.app">PLAY ▸</a>
+          </div>
+        </article>
+
+        <article class="cart reveal" data-tilt>
+          <div class="cart-art cart-orca"><span>OA</span></div>
+          <div class="cart-body">
+            <div class="cart-meta"><span class="genre">EXPLORATION</span><span class="status shelf">● ON THE SHELF</span></div>
+            <h3>OrcaAtlas</h3>
+            <p>Global orca tracking on a live map — sightings fed by iNaturalist and GBIF. The site still renders, but the data pipeline went stale when its CORS proxies died. Dormant, not dead: the fix is a server-side fetch away.</p>
+            <a class="cart-btn" href="https://orcaatlas.io">VIEW ▸</a>
+          </div>
+        </article>
+
+        <article class="cart reveal" data-tilt>
+          <div class="cart-art cart-detect"><span>DE</span></div>
+          <div class="cart-body">
+            <div class="cart-meta"><span class="genre">TOWER DEFENSE</span><span class="status live">● ACTIVE</span></div>
+            <h3>Detection Lab</h3>
+            <p>Detection engineering as a craft: Snort and Suricata rules, detection-as-code, and threat hunting workflows. Detections get version control, testing, and tuning — like software, because they are software.</p>
+            <span class="cart-btn ghost">WRITE-UP SOON</span>
+          </div>
+        </article>
+
+        <article class="cart reveal" data-tilt>
+          <div class="cart-art cart-soar"><span>SO</span></div>
+          <div class="cart-body">
+            <div class="cart-meta"><span class="genre">AUTOMATION</span><span class="status live">● ACTIVE</span></div>
+            <h3>SOAR Playbooks</h3>
+            <p>Splunk SOAR playbooks that take the toil out of incident response — enrichment, containment, and notification flows that let analysts hunt instead of click. Built from years on the SOC floor.</p>
+            <span class="cart-btn ghost">WRITE-UP SOON</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ══════════ LEVEL 3 · PATCH NOTES ══════════ -->
+    <section class="level" id="patch-notes">
+      <div class="level-head reveal">
+        <span class="level-tag">LEVEL 3</span>
+        <h2>Patch Notes</h2>
+        <p>The changelog of a career. No nerfs, only buffs.</p>
+      </div>
+      <div class="notes-list">
+        <article class="note reveal">
+          <span class="ver">v1.0.0</span>
+          <div>
+            <h3>Hello, Player One <time>— 2026-09-17</time></h3>
+            <p>This site goes live. One page, four sections, zero build steps — vanilla HTML, CSS, and JS with a little GSAP for the flair. The plan: ship projects as cartridges, career updates as patch notes, and keep everything as playable as possible.</p>
+          </div>
+        </article>
+        <article class="note reveal">
+          <span class="ver">v0.9.1</span>
+          <div>
+            <h3>OrcaAtlas: what broke and how I'd fix it <time>— 2026-09-17</time></h3>
+            <p>The orca tracker still renders, but the sightings feed flatlined. Diagnosis: the upstream providers (iNaturalist, GBIF) are healthy — tens of thousands of records — so the failure is the brittle public CORS proxies in between. The fix is a server-side route handler that fetches directly and kills the proxy dependency. Classic lesson: never build your data pipeline on someone else's free proxy.</p>
+          </div>
+        </article>
+        <article class="note reveal">
+          <span class="ver">v0.9.0</span>
+          <div>
+            <h3>Detection as code <time>— 2026-09-16</time></h3>
+            <p>A detection nobody can version, test, or roll back is a rumor, not a control. Treating Snort/Suricata rules and SOAR playbooks like software — reviewed, tested, deployed — is the difference between a SOC that hunts and a SOC that hopes. More on this soon.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ══════════ BONUS STAGE · TERMINAL ══════════ -->
+    <section class="level level-alt" id="bonus">
+      <div class="level-head reveal">
+        <span class="level-tag">BONUS STAGE</span>
+        <h2>Debug Console</h2>
+        <p>Type <code>help</code> and poke around. Rumor says there's a cheat code…</p>
+      </div>
+      <div class="terminal reveal">
+        <div class="term-bar"><span></span><span></span><span></span><em>corey@player-one: ~</em></div>
+        <div class="term-screen" id="termScreen"></div>
+        <div class="term-input-row"><span>▸</span><input id="termInput" type="text" autocomplete="off" spellcheck="false" placeholder="type a command…" aria-label="Terminal command input" /></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════ CONTINUE? ══════════ -->
+  <footer class="continue" id="contact">
+    <div class="reveal">
+      <p class="continue-kicker">★ CONTINUE? ★</p>
+      <h2>Insert Coin</h2>
+      <p>Best reached via GitHub. Currently open to player-coach security roles — startups and cool missions preferred, remote or NYC.</p>
+      <div class="continue-btns">
+        <a class="big-btn" href="https://github.com/CoreyMcKay">GITHUB ▸</a>
+        <a class="big-btn alt" href="https://hound-three.vercel.app">TRY HOUND ▸</a>
+      </div>
+      <p class="fine-print">© 2026 Corey McKay · Built with Samson · No quarters were harmed</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
